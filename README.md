@@ -6,9 +6,10 @@ ASM - Data Mining Group Project - CS 4412
 This project utilizes unsupervised data mining to identify Attack Surface Drift and Shadow IT within a network. The focus lies on discovering natural patterns and identifying anomalies that deviate from the baselines that we establish.  
 
 # Dataset  
-The data set derives from the Unified Host and Network Data Set, which is provided by the Los Alamos National Laboratory (2017).  
+The data set derives from the Unified Host and Network Data Set, which is provided by the Los Alamos National Laboratory (2017).
+```
 -[URL Source:](https://csr.lanl.gov/data/2017/)  
-
+```
 # Pipeline Approach  
 -PCA: Dimensionality reduction technique to simplify complex, high-dimensional datasets  
 -DBSCAN: Behavioral clustering used to identify the normal groups of network activity  
